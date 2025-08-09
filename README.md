@@ -1,38 +1,57 @@
-# 🛸 Rick and Morty App
+# 🚀 Rick and Morty Explorer
 
-Aplicativo mobile desenvolvido com Flutter que consome a [Rick and Morty API](https://rickandmortyapi.com/) para exibir personagens, episódios e informações do universo da série.
-
----
-
-## 📖 Descrição
-
-Este projeto tem como objetivo praticar o consumo de APIs REST, gerenciamento de estado e construção de interfaces responsivas com Flutter. O app permite visualizar personagens, buscar por nome e acessar detalhes como espécie, origem e episódios em que aparecem.
+Uma aplicação Flutter que consome a [Rick and Morty API](https://rickandmortyapi.com/) para listar, buscar e visualizar detalhes dos personagens da série. Desenvolvido como parte do **Desafio Kode Start 2025**, este projeto foca em boas práticas, arquitetura limpa e uma interface moderna.
 
 ---
 
-## 🚀 Funcionalidades
+## 🧰 Tecnologias utilizadas
 
-- Listagem de personagens com imagem e nome
-- Visualização de detalhes individuais
-- Filtro por status (vivo, morto, desconhecido)
-- Integração com a Rick and Morty API
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-- Flutter
+- Flutter 3.x
 - Dart
-- HTTP package
+- HTTP
+- Google Fonts
 - Rick and Morty API
 
 ---
 
-## 📦 Como rodar o projeto
+## 🧱 Estrutura do projeto
+
+Organizado com base em princípios de **Clean Code** e **Separation of Concerns**:
+
+
+---
+
+## 🧠 Padrões e práticas aplicadas
+
+| Padrão / Técnica                  | Descrição                                                                 |
+|----------------------------------|---------------------------------------------------------------------------|
+| **StatefulWidget**               | Gerenciamento de estado local nas telas                                   |
+| **Repository Pattern**           | Abstração da lógica de acesso à API                                       |
+| **Model Factory**                | Criação segura de objetos a partir de JSON                                |
+| **Scroll infinito**              | Implementado com `ScrollController`                                       |
+| **Busca manual**                 | Acionada por botão para controle total                                    |
+| **Safe async context**           | Uso de `mounted` para evitar erros após `await`                           |
+| **Custom Widgets**               | Componentes reutilizáveis para UI                                         |
+| **Google Fonts**                 | Tipografia personalizada com `Lato`                                       |
+| **Error handling com log**       | Uso de `dart:developer` para rastreabilidade                              |
+
+---
+
+## 📱 Funcionalidades
+
+- Listagem de personagens com scroll infinito
+- Busca por nome com botão de ação
+- Visualização de detalhes do personagem
+- Layout responsivo e adaptável
+
+---
+
+## 🧪 Como executar
+
+1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/devbozi/rick-and-morty-app.git
-cd rick-and-morty-app
+git clone https://github.com/seu-usuario/rick_and_morty_explorer.git
+cd rick_and_morty_explorer
 flutter pub get
 flutter run
-
