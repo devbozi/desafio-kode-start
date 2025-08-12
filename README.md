@@ -1,21 +1,4 @@
-<<<<<<< HEAD
-# desafio_code
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
 # 🚀 Rick and Morty Explorer
 
 Uma aplicação Flutter que consome a [Rick and Morty API](https://rickandmortyapi.com/) para listar, buscar e visualizar detalhes dos personagens da série. Desenvolvido como parte do **Desafio Kode Start 2025**, este projeto foca em boas práticas, arquitetura limpa e uma interface moderna.
@@ -69,8 +52,7 @@ Organizado com base em princípios de **Clean Code** e **Separation of Concerns*
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/rick_and_morty_explorer.git
-cd rick_and_morty_explorer
+git clone https://github.com/devbozi/desafio-kode-start.git
+cd desafio-kode-start
 flutter pub get
 flutter run
->>>>>>> 134483a7ac065147a043477357ff0c346e72670b
