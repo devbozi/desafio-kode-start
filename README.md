@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 8b1c9db (app pronto para uso com videos e README atualizado)
 # 🚀 Rick and Morty Explorer
 
 Uma aplicação Flutter que consome a [Rick and Morty API](https://rickandmortyapi.com/) para listar, buscar e visualizar detalhes dos personagens da série. Desenvolvido como parte do **Desafio Kode Start 2025**, este projeto foca em boas práticas, arquitetura limpa e uma interface moderna.
